@@ -16,8 +16,7 @@ defmodule RealtimeCursorTrackingWeb.Router do
 
   scope "/", RealtimeCursorTrackingWeb do
     pipe_through :browser
-
-    get "/", PageController, :home
+    live "/", Cursors
   end
 
   # Other scopes may use custom stacks.
