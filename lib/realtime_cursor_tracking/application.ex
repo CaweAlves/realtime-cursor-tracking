@@ -13,9 +13,10 @@ defmodule RealtimeCursorTracking.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: RealtimeCursorTracking.PubSub},
       # Start the Endpoint (http/https)
-      RealtimeCursorTrackingWeb.Endpoint
+      RealtimeCursorTrackingWeb.Endpoint,
       # Start a worker by calling: RealtimeCursorTracking.Worker.start_link(arg)
       # {RealtimeCursorTracking.Worker, arg}
+      RealtimeCursorTrackingWeb.Presence
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
