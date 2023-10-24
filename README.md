@@ -1,5 +1,7 @@
 # RealtimeCursorTracking
 
+![a](https://github.com/CaweAlves/realtime-cursor-tracking/assets/84283988/648a4792-5b98-48e3-9236-ecfcbbad6a4a)
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
